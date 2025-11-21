@@ -8,6 +8,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using WpfApp1.ViewModel;
 
 namespace WpfApp1
 {
@@ -16,9 +17,13 @@ namespace WpfApp1
     /// </summary>
     public partial class MainWindow : Window
     {
+        EmployeeViewModel viewModel;
         public MainWindow()
         {
             InitializeComponent();
+            viewModel = new EmployeeViewModel();
+            this.DataContext = viewModel; 
+            
         }
 
        

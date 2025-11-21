@@ -4,32 +4,34 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:WpfApp1.View"
-             mc:Ignorable="d" 
-             d:DesignHeight="450" Width="818">
-    <Grid Margin="45,45,60,79">
+             mc:Ignorable="d" Width="818" Height="613">
+    <Grid Margin="45,72,60,22">
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="173*"/>
-            <ColumnDefinition Width="450*"/>
+            <ColumnDefinition Width="450"/>
             <ColumnDefinition Width="30"/>
 
 
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
 
-            <RowDefinition />
+            <RowDefinition Height="83*" />
             <RowDefinition Height="auto" />
             <RowDefinition Height="auto"/>
             <RowDefinition Height="auto"/>
             <RowDefinition Height="auto"/>
             <RowDefinition Height="auto"/>
-            <RowDefinition />
+            <RowDefinition Height="56*" />
+            <RowDefinition Height="30*" />
+            <RowDefinition Height="auto"  />
+
 
         </Grid.RowDefinitions>
         <TextBlock Text="Employee Details" 
                    Grid.Row="0"
                    FontSize="20"
                    FontWeight = "Bold"
-                   HorizontalAlignment="Center" Margin="0,0,0,2" Grid.Column="1" Width="162"
+                   HorizontalAlignment="Center" Margin="0,18,0,21" Grid.Column="1" Width="224"
                  
                    
                    />
@@ -68,42 +70,52 @@
             FontSize="14"
             FontWeight="Bold"
                    />
+        <TextBlock 
+            Text="Features"
+            Grid.Row="6"
+            Grid.Column="0"
+            Margin="13,10,13,13"
+            FontSize="14"
+            FontWeight="Bold"
+            />
         <TextBox 
             Name="txtEmpId" 
             Grid.Row="1"
             Grid.Column="1" Margin="35,7,30,7"
-
+        Text ="{Binding Path = CurrEmployee.Id, Mode=TwoWay}"
            
             />
         <TextBox 
             Name = "txtEmpName" 
             Grid.Row="2"
             Grid.Column="1" Margin="35,7,30,7"
-
+            Text="{Binding Path = CurrEmployee.Name, Mode=TwoWay}"
 
             />
         <TextBox 
             Name="txtPhoneNum" 
             Grid.Row="3"
             Grid.Column="1" Margin="35,7,30,6"
-
+            Text="{Binding Path= CurrEmployee.PhoneNumber, Mode=TwoWay}"
 />
         <TextBox 
             Name = "txtPass" 
             Grid.Row="4"
             Grid.Column="1" Margin="35,7,30,7"
-
+            Text="{Binding Path= CurrEmployee.Password, Mode=TwoWay}"
     
                  />
         <TextBox 
             Name="txtAge" 
             Grid.Row="5"
             Grid.Column="1" Margin="35,7,30,7"
+            Text="{Binding Path= CurrEmployee.Age, Mode=TwoWay}"
+            
                  />
         <StackPanel
             Orientation="Horizontal"
-            Grid.Row="5"
-            Grid.Column="1" Margin="0,42,0,0" Grid.RowSpan="2"
+            Grid.Row="6"
+            Grid.Column="1" Margin="0,9,0,10"
             
             >
             <Button 
@@ -113,6 +125,7 @@
             FontWeight="Bold"
             Width="80" Height="31"
             HorizontalAlignment="left" Margin="35,0,0,0"
+                Command="{Binding Path = SaveCommand}"
             />
             <Button 
             Name="btnUpdate"
@@ -129,9 +142,64 @@
                 FontWeight="Bold"
                 Width="80" Height="31"
                 HorizontalAlignment="left" Margin="5,0,0,0"
+                Command="{Binding Path = DeleteCommand}"
                 />
 
         </StackPanel>
+
+        <TextBlock
+            Text ="DisplayData"
+            FontSize="14"
+            FontWeight="Bold"
+            Grid.Row="8"
+            Grid.Column="0"
+            Margin="13,12,13,11"
+            />
+        <DataGrid
+            Name="dgvEmployeeDetails"
+            AutoGenerateColumns="False"
+            Grid.Row="8"
+            Grid.Column="1"
+            FontSize="12"
+            FontWeight="Bold"
+            Margin="35,7,30,0"
+            ItemsSource = "{Binding Path = EmployeeList}" Height="147" VerticalAlignment="Top"
+            >
+            <DataGrid.Columns >
+
+                <DataGridTextColumn
+                Header="Id"
+                Width ="auto"
+               
+                 Binding="{Binding Path=Id}"
+                />
+                <DataGridTextColumn
+
+                    Header ="Name"
+                    Width ="auto"
+                    Binding ="{Binding Path=Name}"
+                
+                />
+                <DataGridTextColumn  
+                    Header="Password"
+                    Width="auto"
+                    Binding="{Binding Path= Password}"
+                    />
+                <DataGridTextColumn 
+                    Header="Phone Number"
+                    Width ="auto"
+                    Binding="{Binding Path=PhoneNumber}"
+                    />
+                <DataGridTextColumn 
+                    Header="Age"
+                    Width="auto"
+                    Binding="{Binding Path=Age}"
+                    />
+
+            </DataGrid.Columns>
+
+        </DataGrid>
+
 
     </Grid>
 </UserControl>

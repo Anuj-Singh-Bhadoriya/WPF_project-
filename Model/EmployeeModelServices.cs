@@ -48,7 +48,17 @@ namespace WpfApp1.Model
             //        return addedValue;
             //    }
             //}
-            ObjemployeesList.Add(newEmp);
+            EmployeeModel newEmp1 = new EmployeeModel
+            {
+                Id = newEmp.Id,
+                Age = newEmp.Age,
+                Name = newEmp.Name,
+                Password = newEmp.Password,
+                PhoneNumber = newEmp.PhoneNumber,
+
+            };
+
+            ObjemployeesList.Add(newEmp1);
             addedValue = true;
             return addedValue;
         }

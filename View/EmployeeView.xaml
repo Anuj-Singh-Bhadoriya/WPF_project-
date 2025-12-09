@@ -93,16 +93,18 @@
 
             />
         <TextBox 
-            Name="txtPhoneNum" 
+            Name="txtPass" 
             Grid.Row="3"
             Grid.Column="1" Margin="35,7,30,6"
-            Text="{Binding Path= CurrEmployee.PhoneNumber, Mode=TwoWay}"
-/>
+            Text="{Binding Path= CurrEmployee.Password, Mode=TwoWay}"
+             TextChanged="txtPass_TextChanged"
+            
+        />
         <TextBox 
-            Name = "txtPass" 
+            Name = "txtPhoneNum" 
             Grid.Row="4"
             Grid.Column="1" Margin="35,7,30,7"
-            Text="{Binding Path= CurrEmployee.Password, Mode=TwoWay}"
+            Text="{Binding Path= CurrEmployee.PhoneNumber, Mode=TwoWay}"
     
                  />
         <TextBox 
@@ -134,6 +136,7 @@
             FontWeight="Bold"
             Width="80" Height="31"
             HorizontalAlignment="left" Margin="5,0,0,0"
+                IsEnabled="False"
             />
             <Button 
                 Name="btnDelete"
@@ -163,8 +166,10 @@
             FontSize="12"
             FontWeight="Bold"
             Margin="35,7,30,0"
+            IsReadOnly="True"
             ItemsSource = "{Binding Path = EmployeeList}" Height="147" VerticalAlignment="Top"
             >
+            
             <DataGrid.Columns >
 
                 <DataGridTextColumn
@@ -179,22 +184,25 @@
                     Width ="auto"
                     Binding ="{Binding Path=Name}"
                 
-                />
-                <DataGridTextColumn  
-                    Header="Password"
-                    Width="auto"
-                    Binding="{Binding Path= Password}"
-                    />
-                <DataGridTextColumn 
-                    Header="Phone Number"
-                    Width ="auto"
-                    Binding="{Binding Path=PhoneNumber}"
-                    />
-                <DataGridTextColumn 
-                    Header="Age"
-                    Width="auto"
-                    Binding="{Binding Path=Age}"
-                    />
+            />
+
+            <DataGridTextColumn  
+             Header="Password"
+             Width="auto"
+             Binding="{Binding Path= Password}"
+             />
+                
+            <DataGridTextColumn 
+              Header="Phone Number"
+              Width ="auto"
+              Binding="{Binding Path=PhoneNumber}"
+            />
+                
+            <DataGridTextColumn 
+                Header="Age"
+                Width="auto"
+                Binding="{Binding Path=Age}"
+            />
 
             </DataGrid.Columns>
 

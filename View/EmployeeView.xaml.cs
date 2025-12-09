@@ -24,5 +24,10 @@ namespace WpfApp1.View
         {
             InitializeComponent();
         }
+
+        private void txtPass_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
     }
 }

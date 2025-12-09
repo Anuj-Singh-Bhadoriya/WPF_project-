@@ -7,6 +7,14 @@
       "RelativeMoniker": "D:0:0:{D1EC55CC-D23B-4026-9029-2F0E7FF7A3E2}|WpfApp1.csproj|solutionrelative:view\\employeeview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{D1EC55CC-D23B-4026-9029-2F0E7FF7A3E2}|WpfApp1.csproj|d:\\anuj project\\others\\working_project\\webapiproject\\19072025\\webapi_crud_operation\\wpf_mvvm_project\\wpfapp1\\model\\employeemodelservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1EC55CC-D23B-4026-9029-2F0E7FF7A3E2}|WpfApp1.csproj|solutionrelative:model\\employeemodelservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1EC55CC-D23B-4026-9029-2F0E7FF7A3E2}|WpfApp1.csproj|d:\\anuj project\\others\\working_project\\webapiproject\\19072025\\webapi_crud_operation\\wpf_mvvm_project\\wpfapp1\\viewmodel\\employeeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1EC55CC-D23B-4026-9029-2F0E7FF7A3E2}|WpfApp1.csproj|solutionrelative:viewmodel\\employeeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D1EC55CC-D23B-4026-9029-2F0E7FF7A3E2}|WpfApp1.csproj|d:\\anuj project\\others\\working_project\\webapiproject\\19072025\\webapi_crud_operation\\wpf_mvvm_project\\wpfapp1\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{D1EC55CC-D23B-4026-9029-2F0E7FF7A3E2}|WpfApp1.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
@@ -15,8 +23,12 @@
       "RelativeMoniker": "D:0:0:{D1EC55CC-D23B-4026-9029-2F0E7FF7A3E2}|WpfApp1.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D1EC55CC-D23B-4026-9029-2F0E7FF7A3E2}|WpfApp1.csproj|d:\\anuj project\\others\\working_project\\webapiproject\\19072025\\webapi_crud_operation\\wpf_mvvm_project\\wpfapp1\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{D1EC55CC-D23B-4026-9029-2F0E7FF7A3E2}|WpfApp1.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{D1EC55CC-D23B-4026-9029-2F0E7FF7A3E2}|WpfApp1.csproj|d:\\anuj project\\others\\working_project\\webapiproject\\19072025\\webapi_crud_operation\\wpf_mvvm_project\\wpfapp1\\command\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1EC55CC-D23B-4026-9029-2F0E7FF7A3E2}|WpfApp1.csproj|solutionrelative:command\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1EC55CC-D23B-4026-9029-2F0E7FF7A3E2}|WpfApp1.csproj|d:\\anuj project\\others\\working_project\\webapiproject\\19072025\\webapi_crud_operation\\wpf_mvvm_project\\wpfapp1\\model\\employeemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1EC55CC-D23B-4026-9029-2F0E7FF7A3E2}|WpfApp1.csproj|solutionrelative:model\\employeemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,18 +38,58 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "App.xaml",
-              "DocumentMoniker": "D:\\Anuj Project\\Others\\Working_Project\\webAPIProject\\19072025\\WebAPI_CRUD_Operation\\WPF_MVVM_Project\\WpfApp1\\App.xaml",
-              "RelativeDocumentMoniker": "App.xaml",
-              "ToolTip": "D:\\Anuj Project\\Others\\Working_Project\\webAPIProject\\19072025\\WebAPI_CRUD_Operation\\WPF_MVVM_Project\\WpfApp1\\App.xaml",
-              "RelativeToolTip": "App.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-11-18T11:46:47.662Z",
+              "DocumentIndex": 5,
+              "Title": "RelayCommand.cs",
+              "DocumentMoniker": "D:\\Anuj Project\\Others\\Working_Project\\webAPIProject\\19072025\\WebAPI_CRUD_Operation\\WPF_MVVM_Project\\WpfApp1\\Command\\RelayCommand.cs",
+              "RelativeDocumentMoniker": "Command\\RelayCommand.cs",
+              "ToolTip": "D:\\Anuj Project\\Others\\Working_Project\\webAPIProject\\19072025\\WebAPI_CRUD_Operation\\WPF_MVVM_Project\\WpfApp1\\Command\\RelayCommand.cs",
+              "RelativeToolTip": "Command\\RelayCommand.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwCMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T05:23:53.046Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EmployeeModelServices.cs",
+              "DocumentMoniker": "D:\\Anuj Project\\Others\\Working_Project\\webAPIProject\\19072025\\WebAPI_CRUD_Operation\\WPF_MVVM_Project\\WpfApp1\\Model\\EmployeeModelServices.cs",
+              "RelativeDocumentMoniker": "Model\\EmployeeModelServices.cs",
+              "ToolTip": "D:\\Anuj Project\\Others\\Working_Project\\webAPIProject\\19072025\\WebAPI_CRUD_Operation\\WPF_MVVM_Project\\WpfApp1\\Model\\EmployeeModelServices.cs",
+              "RelativeToolTip": "Model\\EmployeeModelServices.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAAAqwFQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T05:25:01.199Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EmployeeViewModel.cs",
+              "DocumentMoniker": "D:\\Anuj Project\\Others\\Working_Project\\webAPIProject\\19072025\\WebAPI_CRUD_Operation\\WPF_MVVM_Project\\WpfApp1\\ViewModel\\EmployeeViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModel\\EmployeeViewModel.cs",
+              "ToolTip": "D:\\Anuj Project\\Others\\Working_Project\\webAPIProject\\19072025\\WebAPI_CRUD_Operation\\WPF_MVVM_Project\\WpfApp1\\ViewModel\\EmployeeViewModel.cs",
+              "RelativeToolTip": "ViewModel\\EmployeeViewModel.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAwwCAAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T05:20:44.423Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "EmployeeModel.cs",
+              "DocumentMoniker": "D:\\Anuj Project\\Others\\Working_Project\\webAPIProject\\19072025\\WebAPI_CRUD_Operation\\WPF_MVVM_Project\\WpfApp1\\Model\\EmployeeModel.cs",
+              "RelativeDocumentMoniker": "Model\\EmployeeModel.cs",
+              "ToolTip": "D:\\Anuj Project\\Others\\Working_Project\\webAPIProject\\19072025\\WebAPI_CRUD_Operation\\WPF_MVVM_Project\\WpfApp1\\Model\\EmployeeModel.cs",
+              "RelativeToolTip": "Model\\EmployeeModel.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwCMAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T11:10:51.563Z",
               "EditorCaption": ""
             },
             {
@@ -54,7 +106,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "D:\\Anuj Project\\Others\\Working_Project\\webAPIProject\\19072025\\WebAPI_CRUD_Operation\\WPF_MVVM_Project\\WpfApp1\\MainWindow.xaml",
               "RelativeDocumentMoniker": "MainWindow.xaml",
@@ -66,13 +118,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "D:\\Anuj Project\\Others\\Working_Project\\webAPIProject\\19072025\\WebAPI_CRUD_Operation\\WPF_MVVM_Project\\WpfApp1\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "MainWindow.xaml.cs",
               "ToolTip": "D:\\Anuj Project\\Others\\Working_Project\\webAPIProject\\19072025\\WebAPI_CRUD_Operation\\WPF_MVVM_Project\\WpfApp1\\MainWindow.xaml.cs",
               "RelativeToolTip": "MainWindow.xaml.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAUwBYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAUwBkAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-18T05:17:18.894Z",
               "EditorCaption": ""
